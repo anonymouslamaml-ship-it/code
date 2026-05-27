@@ -1,5 +1,5 @@
 
-This repository contains the code to reproduce results in supplementary material for **LA-MAML** (Language-adapted Model-Agnostic Meta-Learning).
+This repository contains the code to reproduce results for **LA-MAML** (Language-adapted Model-Agnostic Meta-Learning).
 
 ## 1. Installation
 
@@ -7,7 +7,7 @@ Refer to the requirements.txt file to install dependencies.
 
 ## 2. Train Models
 
-> **Note:** We do not provide any pre-trained models due to space constraints. In order to reproduce the results, **explicit training is required for all the models** before running the evaluation scripts.
+> **Note:** In order to reproduce the results, **explicit training is required for all the models** before running the evaluation scripts.
 
 *(The commands below use the `PickupDist` environment as a specific example, but models can be trained on **any of the environments as mentioned in the paper** by changing the `--env` parameter and its other parameters.)*
 
